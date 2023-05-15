@@ -150,9 +150,7 @@ Simple AD provides a subset of the features offered by AWS Managed Microsoft AD,
     DIRECTORY_ID=`aws ds create-directory --name lab.example.com --password SimpleAD1234 --short-name sad --size Small --vpc-settings SubnetIds=$SUBNET_ID1,$SUBNET_ID2,VpcId=$VPC_ID`
     echo $DIRECTORY_ID
     ```
-One can view the Simple AD under Directory Services on AWS console
 
-      ![Simple AD Directory](./images/Sim)
 ## Create EC2 instance and configure and Install Active Directory administrative tools
 
 1. Create Security group
