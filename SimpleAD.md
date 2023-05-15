@@ -193,8 +193,13 @@ One can view the Simple AD under Directory Services on AWS console
 1. Go to the Directory Service and Open the Simple AD directory and copy the Directory DNS name and DNS address
 
 ROSA_CLUSTER_NAME=simplead-test
+
 VPC = 10.0.0.0/16
+
 PUBLIC_SUBNET = 10.0.2.0/23
+
 PRIVATE_SUBNET = 10.0.4.0/23
+
 SimpleAD = 10.0.0.0/24
+
 SimpleAD = 10.0.1.0/24
