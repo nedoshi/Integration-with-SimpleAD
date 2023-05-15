@@ -1,5 +1,5 @@
 ---
-date: '2022-03-20'
+date: '2022-04-20'
 title: Configure ROSA to use Simple AD
 tags: ["AWS", "ROSA"]
 ---
